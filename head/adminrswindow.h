@@ -100,9 +100,9 @@ private:
     MyCfSql cf;
 public:
     AdminRsWindow();
-    void newReserveWindow(int isView);
-    void addItem(QString str);
-    void updateRs();
+    void newReserveWindow(int isView);    //生成预约信息界面
+    void addItem(QString str);    //向下拉式选项框添加元素
+    void updateRs();    //更新界面
 
 };
 
