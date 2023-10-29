@@ -95,7 +95,7 @@ private:
     MyCfSql cf;
 public:
     AdminCfWindow();
-    void addItem(QString str);    //添加会议室
+    void addItem(QString str);    //向下拉式选项框添加元素
     void delItem();    //删除会议室
     void updateCf();    //更新界面
     void updateItem();    //更新会议室
