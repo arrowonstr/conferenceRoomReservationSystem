@@ -38,6 +38,7 @@
 | users_name     | varchar(20) | NO   |NULL    |用户名|                
 | users_password | varchar(20) | NO   |NULL    |密码|                
 | users_author   | int         | NO   |NULL    |权限|
+
 其中：
 users_id为主键
 权限 0为用户 1为管理员             
@@ -51,6 +52,7 @@ users_id为主键
 | rooms_square   | int         | NO   |NULL    |面积|                
 | rooms_describe | varchar(50) | NO   |NULL    |描述|                
 | rooms_reserve  | varchar(12) | NO   | NULL   |无|
+
 其中：
 rooms_id为主键
 rooms_reserve为废弃的字段 但是不想改代码了 所以保留在这里 其没有含义和作用
