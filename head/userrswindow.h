@@ -101,10 +101,10 @@ private:
     MyCfSql cf;
 public:
     UserRsWindow(QString name);
-    void newReserveWindow(int isView);
-    void addItem(QString str);
-    void cancelItem();
-    void updateRs();
+    void newReserveWindow(int isView);    
+    void addItem(QString str);    //向下拉式选项框添加元素
+    void cancelItem();    //取消预约
+    void updateRs();    //更新界面
 };
 
 #endif // USERRSWINDOW_H
