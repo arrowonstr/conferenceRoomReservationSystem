@@ -180,9 +180,9 @@ private:
 public:
     UserCfWindow(QString name);
     void addItem(QString str);
-    void filter();
-    void reserve();
-    void view();
+    void filter();    //筛选会议室并更新界面
+    void reserve();    //预约会议室
+    void view();    //查看会议室
 };
 
 #endif // USERCFWINDOW_H
