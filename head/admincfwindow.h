@@ -95,10 +95,10 @@ private:
     MyCfSql cf;
 public:
     AdminCfWindow();
-    void addItem(QString str);
-    void delItem();
-    void updateCf();
-    void updateItem();
+    void addItem(QString str);    //添加会议室
+    void delItem();    //删除会议室
+    void updateCf();    //更新界面
+    void updateItem();    //更新会议室
 };
 
 #endif // ADMINCFWINDOW_H
